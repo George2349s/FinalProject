@@ -65,7 +65,7 @@
     <a th:href="@{/product/info/{id}(id=${product.getId()})}"><img th:src="'/img/' + ${product.imageList[0].getFileName()}" width="300px"></a>
     <br>
     <br>
-    <a class="infoprosmotr" th:href="@{/product/info/{id}(id=${product.getId()})}" th:text="${product.getTitle()}" id="title"></a>
+    <a class="infoprosmotr" th:href="@{/product/info/{id}(id=${product.getId()})}" th:text="${product.getTitle()}" id="title1"></a>
     <p th:text="'Цена: ' + ${product.getPrice()}"></p>
 </div>
 </body>
